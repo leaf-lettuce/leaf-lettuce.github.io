@@ -4,3 +4,9 @@ function sayThatWasEasy() {
 }
 
 $("#easy").on("click", sayThatWasEasy);
+
+$(document). delegateKeypress(event) 
+    
+    if (event.charCode == 32) {
+      $("#easy").trigger("click");
+    }
