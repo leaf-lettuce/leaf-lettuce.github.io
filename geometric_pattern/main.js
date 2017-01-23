@@ -10,14 +10,14 @@ var bVal;
 function setup() {
     createCanvas(480, 600);
     
-    frameRate(5);
+    frameRate(2);
     
     circleDiameter = width/NUM_CIRCLES;
     circleRadius = circleDiameter/2;
     
-    rVal = 255;
-    gVal = 0;
-    bVal = 0;
+    rVal = 179;
+    gVal = 35;
+    bVal = 250;
 }
 
 function draw() {
@@ -37,7 +37,7 @@ function draw() {
         while (x <= width) {
             fill(color(rVal, gVal, bVal));
             stroke(color(rVal, gVal, bVal));
-            ellipse(x, y, circleDiameter, circleDiameter);
+            triangle(x, y, 200, 200);
             x = x + circleDiameter;
         }
    
