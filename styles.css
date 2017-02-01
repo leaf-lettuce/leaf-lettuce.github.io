@@ -3,8 +3,8 @@ img {
 }
 body {
     text-align: center;
-    font-family: "Arial";
-}
-header {
-    text-align: center;
+    font-family: "Times New Roman";
+    background-color: yellow;
+    font-size: large;
+    font-style: italic;
 }
