@@ -6,9 +6,9 @@ var enemyImage;
 var backgroundImage;
 
 function preload() {
-  playerImage = loadImage("https://surrogate.hackedu.us/i.imgur.com/N5uCbDu.png");
-  enemyImage = loadImage("https://surrogate.hackedu.us/i.imgur.com/OdL0XPt.png");
-  backgroundImage = loadImage("https://surrogate.hackedu.us/i.imgur.com/aKQOg3G.png");
+  playerImage = loadImage("cookie.png");
+  enemyImage = loadImage("cookie monster.png");
+  backgroundImage = loadImage("background orange.png");
 }
 
 function setup() {
