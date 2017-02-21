@@ -17,7 +17,7 @@ function setup() {
     isGameOver = false;
     score = 0;
     
-    createCanvas(400, 300);
+    createCanvas(1000, 750);
     background(150, 200, 250);
     groundSprites = new Group();
     
@@ -64,7 +64,7 @@ function draw() {
             groundSprites.add(firstGroundSprite);
         }
         
-        if (random() > 0.95) {
+        if (random() > 0.70) {
             var obstacle = createSprite(camera.position.x + width, random(0, (height-50)-15), 30, 30);
             obstacleSprites.add(obstacle);
         }
