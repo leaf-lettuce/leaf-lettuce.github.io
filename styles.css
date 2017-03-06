@@ -1,10 +1,18 @@
 img {
     width: 220px;
+    height: 220px;
 }
 body {
     text-align: center;
     font-family: "Times New Roman";
-    background-color: yellow;
+    background-color: rebeccapurple;
     font-size: large;
     font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    line-height: 2.5;
+    word-spacing: 3px;
+    text-shadow: 3px 2px blue;
+    height: 400px;
 }
