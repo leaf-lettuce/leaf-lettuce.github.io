@@ -13,7 +13,7 @@ var points = [];
 
 function setup() {
 var canvas = createCanvas(600, 600);
-    background(255);
+    background:(255);
     fill(0);
     
     pointsData.on("child_added", function(point) {
@@ -33,7 +33,8 @@ function draw() {
     
     for (var i = 0; i < points.length; i++) {
         var point = points[i];
-        ellipse(point.x, point.y, 5, 5);
+        fill('powderblue')
+        ellipse(point.x, point.y, 100, 100);
     }
 }
 
