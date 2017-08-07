@@ -12,7 +12,7 @@ var pointsData = firebase.database().ref();
 var points = [];
 
 function setup() {
-var canvas = createCanvas(600, 600);
+var canvas = createCanvas(1000, 1000);
     background:(255);
     fill(0);
     
@@ -33,8 +33,8 @@ function draw() {
     
     for (var i = 0; i < points.length; i++) {
         var point = points[i];
-        fill('powderblue')
-        ellipse(point.x, point.y, 100, 100);
+        fill('red')
+        ellipse(point.x, point.y, 50, 75);
     }
 }
 
